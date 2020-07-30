@@ -1,0 +1,31 @@
+{
+  "name": "modo-sdk-js",
+  "version": "1.0.0",
+  "description": "SDK for interacting with Modo servers",
+  "main": "dist/modo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "agentkeepalive": "^3.3.0",
+    "jsonwebtoken": "^8.2.0",
+    "pino": "^5.6.2",
+    "qs": "^6.5.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.1.2",
+    "@commitlint/config-conventional": "^7.1.2",
+    "@types/jsonwebtoken": "^7.2.5",
+    "@types/node": "^10.11.3",
+    "@types/pino": "^5.20.0",
+    "cz-conventional-changelog": "^2.1.0",
+    "gulp": "^3.9.1",
+    "husky": "^1.0.1",
+    "semantic-release": "^15.0.3",
+    "should": "^13.0.1",
+    "tslint": "^5.8.0",
+    "typescript": "^3.1.1"
+  }
+}
