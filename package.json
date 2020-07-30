@@ -1,6 +1,6 @@
 {
-  "name": "modo-sdk-js",
-  "version": "1.0.0",
+  "name": "@modopayments/modo-sdk-js",
+  "version": "1.0.1",
   "description": "SDK for interacting with Modo servers",
   "main": "dist/modo.js",
   "scripts": {
@@ -27,5 +27,13 @@
     "should": "^13.0.1",
     "tslint": "^5.8.0",
     "typescript": "^3.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modopayments/modo-sdk-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/modopayments/modo-sdk-js/issues"
+  },
+  "homepage": "https://github.com/modopayments/modo-sdk-js#readme"
 }
